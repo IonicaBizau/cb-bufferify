@@ -1,0 +1,28 @@
+{
+  "name": "cb-bufferify",
+  "version": "1.0.0",
+  "description": "Convert any async function to a cb-buffer handler.",
+  "main": "lib/index.js",
+  "dependencies": {
+    "cb-buffer": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/cb-bufferify.git"
+  },
+  "keywords": [
+    "callback",
+    "function",
+    "buffer"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/cb-bufferify/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/cb-bufferify#readme"
+}
