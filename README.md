@@ -1,6 +1,6 @@
-# cb-bufferify [![Support this project][donate-now]][paypal-donations]
+# cb-bufferify [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/cb-bufferify.svg)](https://www.npmjs.com/package/cb-bufferify) [![Downloads](https://img.shields.io/npm/dt/cb-bufferify.svg)](https://www.npmjs.com/package/cb-bufferify) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-Convert any async function to a cb-buffer handler.
+> Convert any async function to a cb-buffer handler.
 
 At [**@jillix**](https://github.com/jillix) we created
 [`cb-buffer`](https://github.com/jillix/node-cb-buffer)–a low-level
