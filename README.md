@@ -1,6 +1,8 @@
+
 # cb-bufferify [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/cb-bufferify.svg)](https://www.npmjs.com/package/cb-bufferify) [![Downloads](https://img.shields.io/npm/dt/cb-bufferify.svg)](https://www.npmjs.com/package/cb-bufferify) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Convert any async function to a cb-buffer handler.
+
 
 At [**@jillix**](https://github.com/jillix) we created
 [`cb-buffer`](https://github.com/jillix/node-cb-buffer)–a low-level
@@ -10,13 +12,17 @@ library for callback buffering.
 the async function and it returns another function that is a `cb-buffer` handler
 you can call as many times you want, the first async function being called just once.
 
-## Installation
+
+## :cloud: Installation
 
 ```sh
 $ npm i --save cb-bufferify
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 // Dependencies
@@ -46,7 +52,8 @@ fn(console.log);
 // => Random number is: 0.3325996194034815
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `cbBufferify(fn, args)`
 Converts the provided function into a [`cb-buffer`](https://github.com/jillix/node-cb-buffer) handler.
@@ -58,13 +65,13 @@ Converts the provided function into a [`cb-buffer`](https://github.com/jillix/no
 #### Return
 - **Function** The `cb-buffer` handler.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
