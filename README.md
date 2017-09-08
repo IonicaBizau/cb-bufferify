@@ -9,15 +9,11 @@
 
 
 At [**@jillix**](https://github.com/jillix) we created
-
 [`cb-buffer`](https://github.com/jillix/node-cb-buffer)–a low-level
-
 library for callback buffering.
 
 `cb-bufferify` (this library) abstracts the things a little: it takes as input
-
 the async function and it returns another function that is a `cb-buffer` handler
-
 you can call as many times you want, the first async function being called just once.
 
 
