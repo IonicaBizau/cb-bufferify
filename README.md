@@ -24,7 +24,11 @@ you can call as many times you want, the first async function being called just 
 ## :cloud: Installation
 
 ```sh
-$ npm i --save cb-bufferify
+# Using npm
+npm install --save cb-bufferify
+
+# Using yarn
+yarn add cb-bufferify
 ```
 
 
