@@ -9,11 +9,15 @@
 
 
 At [**@jillix**](https://github.com/jillix) we created
+
 [`cb-buffer`](https://github.com/jillix/node-cb-buffer)–a low-level
+
 library for callback buffering.
 
 `cb-bufferify` (this library) abstracts the things a little: it takes as input
+
 the async function and it returns another function that is a `cb-buffer` handler
+
 you can call as many times you want, the first async function being called just once.
 
 
@@ -64,7 +68,9 @@ There are few ways to get help:
 
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
+
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 
 ## :memo: Documentation
