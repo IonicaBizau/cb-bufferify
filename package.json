@@ -1,6 +1,6 @@
 {
   "name": "cb-bufferify",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "description": "Convert any async function to a cb-buffer handler.",
   "main": "lib/index.js",
   "dependencies": {
@@ -55,6 +55,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
